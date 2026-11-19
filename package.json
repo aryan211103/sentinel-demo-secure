@@ -1,0 +1,13 @@
+{
+  "name": "sentinel-secure-target",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sentinel secure pentest target: a users API on port 4001 that passes vendor/pentest/tester.js by being secure",
+  "type": "module",
+  "main": "server.js",
+  "engines": { "node": ">=20" },
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
